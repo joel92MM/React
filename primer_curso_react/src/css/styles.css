@@ -1,0 +1,23 @@
+.card{
+    background-color:blue;
+    color:white;
+    padding: 20px;
+}
+.btn{
+    background-color:rgba(153, 42, 42, 0.89);
+    color:white;
+    border-color:green;
+    margin: 5px;
+}
+.estilosTareas1{
+    background-color:green;
+    color:white;
+}
+
+.estilosTareas2{
+    background-color:red;
+    color:white;
+}
+.containner{
+    display: flex;
+}
