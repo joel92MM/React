@@ -41,3 +41,12 @@ export function BasiCard({key='', imagen='', title='', contenido='' , valorBoton
       </Card>
     );
   }
+
+  export function Counter(){
+    return (
+        <div>
+            <h1>Counter:0</h1>
+            <button>Sumar</button>
+        </div>
+    )
+  }

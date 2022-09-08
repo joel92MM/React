@@ -5,7 +5,7 @@ import Product, { NavBar } from './js/Product';
 import { TaskCard } from './js/Task';
 import { Button } from './js/Button';
 import { Saludar } from './js/Saludar';
-import { dobleClick, Post, BasiCard} from './js/Funciones';
+import { dobleClick, Post, BasiCard, Counter} from './js/Funciones';
 import './css/styles.css'
 
 
@@ -97,8 +97,9 @@ root.render(<>
                 {user.map((user, i) => {
         return <BasiCard key={{i}} imagen={user.imagen} title={user.name} contenido={user.texto} valorBoton="Ir a"/>}
                     )}
-   </div>              
-
+   </div>    
+{/* Consumir api react          */}
+    <Counter/>
     
     
     {/* fin del cierre de la etiqueta root que encierra el sistema */}

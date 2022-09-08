@@ -1,13 +1,14 @@
-.card{
-    background-color:blue;
+.card {
+    background-color:rgb(21, 21, 36);
     color:white;
     padding: 20px;
 }
 .btn{
-    background-color:rgba(153, 42, 42, 0.89);
-    color:white;
+    background-color:rgba(255, 255, 255, 0.89);
+    color:rgb(0, 0, 0);
     border-color:green;
     margin: 5px;
+    text-align: left;
 }
 .estilosTareas1{
     background-color:green;
